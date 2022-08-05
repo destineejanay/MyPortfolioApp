@@ -1,5 +1,4 @@
 import React from 'react';
-import axios from 'axios';
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
@@ -17,27 +16,27 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
+      title: "Web Design",
       description: "Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
+      title: "Graphic Design",
       description: "Design & Development",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Backend Application Support",
+      description: "Technical Support & Development",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Code Editing & Cleanup",
+      description: "Technical Support & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
+      title: "Project Design",
       description: "Design & Development",
       imgUrl: projImg3,
     },
@@ -82,7 +81,7 @@ export const Projects = () => {
                           }
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="section">
+                      <Tab.Pane eventKey="second">
                         <p>Bottega University gave me so much experience with coding There are so many skills I know now that I never would have been able to figure out before. I wanna thank them for my knowledge today.</p>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
