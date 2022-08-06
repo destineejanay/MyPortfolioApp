@@ -1,3 +1,12 @@
+# Description of App
+
+I created a business type website. I created the different links to different parts of the page. I have inserted my Tiktok videos on the projects tab under tiktok. You can also click the Tiktok Feed button to go straight to my tiktok. The social icons in the top right all go to my socials. Only thing that isn't functional is the mailchimpform and newsletter because I was unable to get those working properly and didn't want to mess up the design by doing something different. 
+
+I used TrackedVisibility and animate.css to give the website really cool animations. 
+I unfortunately was unable to make an API work with this website. I just didn't see a way for it to work properly and make sense.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
