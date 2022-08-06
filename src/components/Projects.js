@@ -6,6 +6,7 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import Tiktok from './Tiktok';
 
 export const Projects = () => {
 
@@ -56,13 +57,13 @@ export const Projects = () => {
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                        <Nav.Link eventKey="first">Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                        <Nav.Link eventKey="second">Praise</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                        <Nav.Link eventKey="third">TikTok</Nav.Link>
 
                       </Nav.Item>
                     </Nav>
@@ -83,9 +84,14 @@ export const Projects = () => {
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <p>Bottega University gave me so much experience with coding There are so many skills I know now that I never would have been able to figure out before. I wanna thank them for my knowledge today.</p>
+
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <p>This project was stressful, but I'm thankful I got the opportunity to work on it and almost pull my hair out.</p>
+                        <p>I'm also a very avid video game player and I post tiktoks! Wanna check them out?? Click the button below!</p>
+                        <div className='tiktok-btn'>
+                          <button><a href="https://www.tiktok.com/@destineejanay">TikTok Feed</a></button>
+                        </div>
+                        <Tiktok />
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>

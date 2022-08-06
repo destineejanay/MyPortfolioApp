@@ -3,7 +3,7 @@ import MailchimpSubscribe from "react-mailchimp-subscribe";
 import { Newsletter } from "./Newsletter";
 
 export const MailchimpForm = () => {
-  const postUrl = `https://yahoo.us18.list-manage.com/subscribe/post${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
+  const postUrl = 'https://us18.list-manage.com/contact-form?u=8d8be1ba76881ac5b37683700&form_id=146a8471860d6671b94b3164a9d4a04f';
 
   return (
     <>
